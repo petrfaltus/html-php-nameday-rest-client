@@ -4,6 +4,7 @@
 <meta charset='utf-8'>
 <title>Name day REST client :: Petr Faltus</title>
 <meta name='author' content='Petr Faltus'>
+<link rel='stylesheet' type='text/css' href='index.css'>
 </head>
 <body>
 <h1>Name day REST client</h1>
