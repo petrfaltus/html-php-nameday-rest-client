@@ -10,9 +10,9 @@
 <h1>Name day REST client</h1>
 <form>
 <input type='text' name='query' value='' size='40' maxlength='50'>
-<input type='button' value='Search'>
+<button type='submit'>Search</button>
 <p>
-<textarea name='result' cols='55' rows='45' readonly='readonly' disabled='disabled'></textarea>
+<textarea cols='55' rows='45' readonly='readonly' disabled='disabled'></textarea>
 </form>
 </body>
 </html>
