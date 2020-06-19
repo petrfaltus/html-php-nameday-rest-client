@@ -9,9 +9,14 @@ class tSearch
   {
     self::$lastError = null; // await no errors
 
-    $result = $query;
+    $output = tWeb::request($query);
+    if ($output == null)
+    {
+      self::$lastError = "The web request to the REST service failed";
+      return null;
+    }
 
-    return $result;
+    return $output;
   }
   //----------------------------------------------------------------------------
   public static function getLastError()
