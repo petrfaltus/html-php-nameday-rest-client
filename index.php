@@ -53,7 +53,8 @@ if (isset($_GET["query"]))
 <body>
 <h1>Name day REST client</h1>
 <form action='<?php echo $_SERVER["REQUEST_URI"]; ?>' method='get'>
-<input type='text' name='query' value='<?php echo $query_value; ?>' size='40' maxlength='50'>
+Name or date:
+<input type='text' name='query' value='<?php echo $query_value; ?>' size='40' maxlength='50' placeholder='Name or date'>
 <button type='submit'>Search</button>
 <?php
 
