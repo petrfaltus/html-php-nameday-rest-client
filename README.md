@@ -5,6 +5,8 @@ This code needs to be launched using the web server with the PHP processing on t
 
 For the operation there must be the **name or date** field in the web form specified.
 
+![Web application screenshot](web.application.screenshot.png)
+
 ## Versions
 Now in June 2020 my version of Apache web server is **2.4.38** (Debian) and my version of PHP is **7.4.6**. All used PHP code should be also fully compatible with the PHP version 5. I am launching the web server using the docker desktop version **2.3.0.3 (45519)** with the docker engine version **19.03.8**.
 
