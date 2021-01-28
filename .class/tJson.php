@@ -58,12 +58,12 @@ class tJson
       $retString .= "chyba parsování";
       $retString .= PHP_EOL;
     }
-    else if ($input[self::ERROR_CODE] !== 0)
+    elseif ($input[self::ERROR_CODE] !== 0)
     {
       $retString .= $input[self::ERROR_STRING];
       $retString .= PHP_EOL;
     }
-    else if ((!isset($input[self::DATA])) or (!is_array($input[self::DATA])))
+    elseif ((!isset($input[self::DATA])) or (!is_array($input[self::DATA])))
     {
       $retString .= "data nenalezena";
       $retString .= PHP_EOL;
