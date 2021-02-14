@@ -54,7 +54,7 @@ class tJson
     $input = json_decode($inputJson, true);
 
     if ((!isset($input[self::ERROR_CODE])) or (!isset($input[self::ERROR_STRING])))
-	{
+    {
       $retString .= "chyba parsování";
       $retString .= PHP_EOL;
     }

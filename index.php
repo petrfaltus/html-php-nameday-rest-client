@@ -25,15 +25,15 @@ if (isset($_GET["query"]))
   {
     // searching
     $result = tSearch::run($query);
-	if ($result != null)
-	{
+    if ($result != null)
+    {
       $result_value = $result;
-	}
-	else
-	{
+    }
+    else
+    {
       $query_value = $query; // query string back to the input field
-	  $error_message = tSearch::getLastError();
-	}
+      $error_message = tSearch::getLastError();
+    }
   }
   else
   {
