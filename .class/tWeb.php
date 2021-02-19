@@ -3,7 +3,7 @@
 class tWeb
 {
   const URL_ADDRESS = "http://api.petrfaltus.net/name_day/json/1.0";
-  const USER_AGENT = "Petr Faltus HTML PHP Nameday REST client";
+  const USER_AGENT = "Petr Faltus HTML PHP Name day REST client";
 
   //----------------------------------------------------------------------------
   public static function request($query)
